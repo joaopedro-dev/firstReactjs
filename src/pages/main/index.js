@@ -16,6 +16,12 @@ export default class Main extends Component {
 
     };
     render(){
-         return <h1>Contagem de : { this.state.products.length}</h1>;
+        return(
+            <div className="product-list">
+                {this.state.products.map(product => (
+                    <h2>{product.title}</h2>
+                ))}
+            </div>
+        );
     }
 }
