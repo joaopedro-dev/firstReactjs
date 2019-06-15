@@ -55,7 +55,7 @@ export default class Main extends Component {
         } = this;
         return(
             <React.Fragment>
-                <div className='product-control'>
+                {/* <div className='product-control'>
                     <h3>Add Product:</h3>
                     <input 
                         type='text' 
@@ -72,7 +72,7 @@ export default class Main extends Component {
                     <button onClick={addProduct}>
                         ADD
                     </button>
-                </div>
+                </div> */}
 
                 <div className='product-list'>
                     <h3>Products:</h3>
