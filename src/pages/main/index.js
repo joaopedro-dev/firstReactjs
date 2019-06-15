@@ -73,7 +73,7 @@ export default class Main extends Component {
                         ADD
                     </button>
                 </div> */}
-
+                <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"></link>
                 <div className='product-list'>
                     <h3>Products:</h3>
                     {products.map(product => (

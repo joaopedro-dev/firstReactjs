@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css';
 
 const Header = () => (
-    <header id="main-header">JShunt</header>
+    <header id="main-header">React App</header>
 );
 
 export default Header;
