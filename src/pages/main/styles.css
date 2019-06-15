@@ -1,3 +1,22 @@
+.product-control{
+    max-width: 700px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+.product-control input{
+    padding: 15px;
+    padding-left: 50px;
+    margin-left: 12px;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+}
+.product-control button{
+    padding: 15px;
+    border: 3px solid rgb(40, 212, 198);
+    border-radius: 12px;
+    margin-left: 80px;
+    
+}
 .product-list {
     max-width: 700px;
     margin: 20px auto 0;

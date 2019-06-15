@@ -56,25 +56,26 @@ export default class Main extends Component {
         return(
             <React.Fragment>
                 <div className='product-control'>
-                    <p>Adicionar tarefa</p>
+                    <h3>Add Product:</h3>
                     <input 
                         type='text' 
-                        placeholder='Digite o título'
+                        placeholder='Type Title'
                         onChange={setProductTitle}
                         value={productTitle}
                     />
                     <input 
                         type='text' 
-                        placeholder='Digite a descrição'
+                        placeholder='Type Descripton'
                         onChange={setProductDescription} 
                         value={productDescription}
                     />
                     <button onClick={addProduct}>
-                        Adicionar Produto
+                        ADD
                     </button>
                 </div>
 
                 <div className='product-list'>
+                    <h3>Products:</h3>
                     {products.map(product => (
                         <article key={product._id}>
                             <strong>{product.title}</strong>
