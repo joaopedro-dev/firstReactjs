@@ -56,4 +56,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.3s;
+}
+
+.product-list a:hover{
+    background-color: black;
+    color: #DDD;
 }
